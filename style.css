@@ -1,0 +1,130 @@
+body{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: hsl(210, 60%, 98%);
+}
+
+.container{
+  width: 50%;
+  margin: 3% 25%;
+  background-color: #fff;
+}
+.navbar{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  padding: 10px 0 0 30px;
+}
+.total-unread-msg{
+  background-color: hsl(219, 85%, 26%);
+  color: #fff;
+  font-size: 15px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.navbar a{
+  padding: 20px 0;
+  font-size: 14px;
+  color: hsl(219, 14%, 63%);
+}
+.navbar a:hover{
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.box{
+  margin: 10px 30px 20px 30px;
+  font-size: 14px;
+  color: hsl(219, 12%, 42%);
+}
+.notification{
+  display: grid;
+  grid-template-columns: 10% 90%;
+  padding: 10px 15px;
+  margin: 5px 0;
+}
+.new-notify{
+  background-color: hsl(210, 60%, 98%);
+}
+.new-notify span::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  padding: 3px 4px;
+  border-radius: 50%;
+  background-color: hsl(1, 90%, 64%);
+  margin: 6px 0 0 5px;
+}
+.profile-pic{
+  width: 40px;
+}
+.msg-box{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.msg-text{
+  border: 1px solid;
+  padding: 10px 15px;
+  width: 70%;
+  margin: -10px 0 0 0;
+}
+.msg-text:hover{
+  background-color: hsl(211, 68%, 94%);
+  cursor: pointer;
+}
+b{
+  color: #000;
+}
+b:hover{
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.dark-txt{
+  color: hsl(219, 12%, 42%);
+  font-weight: 800;
+}
+.dark-txt:hover{
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+.chess{
+  color: hsl(219, 85%, 26%);
+  font-weight: 800;
+}
+.chess:hover{
+  cursor: pointer;
+}
+.kimberly{
+  display: grid;
+  grid-template-columns: 10% 85% 5%;
+}
+.chess-img{
+  width: 35px;
+}
+.chess-img:hover{
+  cursor: pointer;
+}
+
+@media (max-width:500px) {
+
+.container{
+  margin: 2%;
+  width: auto;
+}
+.navbar{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 10px 0 0 20px;
+}
+.box{
+  margin: 10px 20px 20px 20px;
+  font-size: 13px;
+}
+.notification{
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.kimberly{
+  display: grid;
+  grid-template-columns: 15% 80% 5%;
+}
+}
