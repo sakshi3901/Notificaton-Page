@@ -116,7 +116,7 @@ b:hover{
   padding: 10px 0 0 20px;
 }
 .box{
-  margin: 10px 20px 20px 20px;
+  margin: 0px 20px 20px 20px;
   font-size: 13px;
 }
 .notification{
@@ -125,6 +125,6 @@ b:hover{
 }
 .kimberly{
   display: grid;
-  grid-template-columns: 15% 80% 5%;
+  grid-template-columns: 20% 75% 5%;
 }
 }
